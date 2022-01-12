@@ -28,10 +28,10 @@ class WebViewJavaScript : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view_java_script)
 
-        WebView()
+        webView()
     }
 
-    private fun WebView() {
+    private fun webView() {
         val WebView = findViewById<WebView>(R.id.WebView2)
         val Button = findViewById<Button>(R.id.JavaScriptButton)
 

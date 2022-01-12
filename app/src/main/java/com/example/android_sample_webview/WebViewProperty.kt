@@ -14,12 +14,12 @@ class WebViewProperty : AppCompatActivity() {
         binding = ActivityWebViewPropertyBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        WebView()
-        WebViewSetting()
+        webView()
+        webViewSetting()
     }
 
     // 웹뷰
-    fun WebView() {
+    fun webView() {
         binding.WebView3.apply {
             loadUrl("http://www.osdew.com/app/api/javascript_call/Sample_JS_DuplexCommunication.html") // 웹 사이트 load
 
@@ -30,7 +30,7 @@ class WebViewProperty : AppCompatActivity() {
     }
 
     // 웹뷰 세팅
-    fun WebViewSetting() {
+    fun webViewSetting() {
         binding.WebView3.settings.apply {
             javaScriptEnabled = true // 자바 스크립트 사용여부
             javaScriptCanOpenWindowsAutomatically = true // 자바 스크립트가 window.open()을 사용여부

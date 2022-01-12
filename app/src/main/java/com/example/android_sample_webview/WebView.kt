@@ -19,10 +19,10 @@ class WebView : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_web_view)
 
-        WebView()
+        webView()
     }
 
-    private fun WebView() {
+    private fun webView() {
         val WebView = findViewById<WebView>(R.id.WebView)
 
         //웹뷰
