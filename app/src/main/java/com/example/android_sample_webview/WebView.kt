@@ -23,7 +23,7 @@ class WebView : AppCompatActivity() {
     }
 
     private fun webView() {
-        val WebView = findViewById<WebView>(R.id.WebView)
+        val WebView = findViewById<WebView>(R.id.mWebView)
 
         //웹뷰
         WebView.loadUrl("http://www.osdew.com/app/api/javascript_call/Sample_JS_DuplexCommunication.html") // 웹사이트 load

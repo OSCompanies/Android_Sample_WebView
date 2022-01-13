@@ -6,7 +6,7 @@
     tools:context=".WebViewProperty">
 
     <WebView
-        android:id="@+id/WebView3"
+        android:id="@+id/mWebViewP"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 

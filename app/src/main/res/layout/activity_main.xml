@@ -7,14 +7,14 @@
     android:orientation="vertical">
 
     <Button
-        android:id="@+id/Button"
+        android:id="@+id/mButton"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="웹뷰"
         android:layout_margin="20dp"/>
 
     <Button
-        android:id="@+id/Button2"
+        android:id="@+id/mButtonJs"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="웹뷰 - 자바스크립트"

@@ -32,8 +32,8 @@ class WebViewJavaScript : AppCompatActivity() {
     }
 
     private fun webView() {
-        val WebView = findViewById<WebView>(R.id.WebView2)
-        val Button = findViewById<Button>(R.id.JavaScriptButton)
+        val WebView = findViewById<WebView>(R.id.jsWebView)
+        val Button = findViewById<Button>(R.id.jsButton)
 
         // 웹뷰
         WebView.loadUrl("http://www.osdew.com/app/api/javascript_call/Sample_JS_DuplexCommunication.html") // 웹 사이트 load

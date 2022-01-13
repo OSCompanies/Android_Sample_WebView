@@ -20,7 +20,7 @@ class WebViewProperty : AppCompatActivity() {
 
     // 웹뷰
     fun webView() {
-        binding.WebView3.apply {
+        binding.mWebViewP.apply {
             loadUrl("http://www.osdew.com/app/api/javascript_call/Sample_JS_DuplexCommunication.html") // 웹 사이트 load
 
             webViewClient = WebViewClient() // 예시, 오류, 렌더링에 영향을 미치는 이벤트 처리
@@ -31,7 +31,7 @@ class WebViewProperty : AppCompatActivity() {
 
     // 웹뷰 세팅
     fun webViewSetting() {
-        binding.WebView3.settings.apply {
+        binding.mWebViewP.settings.apply {
             javaScriptEnabled = true // 자바 스크립트 사용여부
             javaScriptCanOpenWindowsAutomatically = true // 자바 스크립트가 window.open()을 사용여부
             builtInZoomControls = false // 줌 아이콘 사용여부

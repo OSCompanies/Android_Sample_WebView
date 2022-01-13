@@ -17,11 +17,11 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun button() {
-        binding.Button.setOnClickListener {
+        binding.mButton.setOnClickListener {
             val intent = Intent(this, WebView::class.java)
             startActivity(intent)
         }
-        binding.Button2.setOnClickListener {
+        binding.mButtonJs.setOnClickListener {
             val intent = Intent(this, WebViewJavaScript::class.java)
             startActivity(intent)
         }
